@@ -1,0 +1,48 @@
+.ProfileNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  background-color: #e5e8f4;
+}
+
+.ProfileNavbar-logo {
+  width: 70%;
+  img {
+    height: 6vh;
+    margin-left: 2vw;
+  }
+}
+
+.ProfileNavbar-button {
+  width: 17%;
+  display: flex;
+
+  button {
+    border: none;
+    background-color: transparent;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 7px;
+    border-left: solid 2px white;
+    cursor: pointer;
+  }
+}
+
+.ProfileNavbar-info {
+  width: 13%;
+  background-color: #f2f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+  img {
+    height: 6vh;
+    border-radius: 50%;
+  }
+}
