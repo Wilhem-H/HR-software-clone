@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #243058;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh 1.4vw;
+
+  button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+
+  svg {
+    font-size: 2em;
+  }
+}
+
+.navbar-toggle-button {
+}
+
+.navbar-navigation-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -30vh;
+}
+
+.navbar-settings-button {
+  border-top: solid 2px white;
+  padding-top: 1vh;
+}
