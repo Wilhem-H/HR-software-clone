@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import ProfileNavbar from "./components/ProfileNavbar";
+import Home from "./pages/Home";
 
 import "./App.scss";
 
@@ -10,11 +11,12 @@ function App() {
         <Navbar />
       </div>
       <div className="app-content">
-        <div>
-          {" "}
+        <div className="app-content-profileNavbar">
           <ProfileNavbar />
         </div>
-        <div></div>
+        <div className="app-content-page">
+          <Home />
+        </div>
       </div>
     </div>
   );
